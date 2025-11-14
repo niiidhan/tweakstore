@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+@font-face {
+  font-family: 'CalvinoThin';
+  src: url('./assets/fonts/Calvino-Thin-trial.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Motterdam';
+  src: url('./assets/fonts/Motterdam.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vonique';
+  src: url('./assets/fonts/Vonique64.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF-Pro';
+  src: url('./assets/fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Juana-bold';
+  src: url('./assets/fonts/Fontspring-DEMO-juana-bold.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Juana-thin';
+  src: url('./assets/fonts/Fontspring-DEMO-juana-thin.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-calvino {
+  font-family: 'CalvinoThin', sans-serif;
+}
+.font-motterdam {
+  font-family: 'Motterdam', sans-serif;
+}
+.font-vonique {
+  font-family: 'Vonique', sans-serif;
+}
+.font-sfpro {
+  font-family: 'SF-Pro', sans-serif;
+}
+.font-juanabold {
+  font-family: 'Juana-bold', sans-serif;
+}
+.font-juanathin {
+  font-family: 'Juana-thin', sans-serif;
+}
+
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .contact-input {
+  @apply w-full border border-gray-200 bg-white px-4 py-2.5 rounded-lg outline-none
+         focus:ring-2 focus:ring-blue-400 text-[#0f172a]
+         placeholder-gray-400 transition-all duration-300;
+} */
+
